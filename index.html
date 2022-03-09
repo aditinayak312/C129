@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            AI DJ APP
+            </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+            <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body background="wallpaper.jpg">
+        <center>
+        <h1 class="btn  btn-warning" id="heading">AI DJ WEBAPP
+            <br>
+            <span id="note">NOTE:Show your right-wrist to play song 1 and show left-wrist to play song 2.</span>
+        </h1>
+        <div class="speaker_right">
+            <img src="dj-unscreen.gif">
+            <h3 id="showspeed" class="btn-success">SPEED</h3>
+        </div>
+        <div class="speaker_left">
+            <img src="dj-unscreen.gif">
+            <h3 id="showvolume" class="btn-success">VOLUME</h3>
+        </div>
+        <button class="btn btn-warning" id="play" onclick="playsong()">PLAY</button>
+
+        <div class="footer">
+            Developed By ADITI .
+        </div>
+        </center>
+    
+        <script src="main.js"></script>
+    </body>
+    </html>

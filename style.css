@@ -1,0 +1,55 @@
+body{
+    background-position:center;
+}
+#heading{
+    margin-top: 0%;
+    width:100%;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+#note{
+    font-size: 20px!important;
+    color: black;
+}
+.speaker_right{
+    float:right;
+}
+.speaker_left{
+    float:left;
+}
+img{
+    height: 200px;
+    margin-top: 100px;
+}
+canvas{
+    animation-name: aditi;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes aditi{
+    0%{
+        box-shadow: 5px 5px 40px red;
+    }
+    25%{
+        box-shadow: 5px 5px 40px blueviolet;
+    }
+    50%{
+        box-shadow: 5px 5px 40px blue;
+    }
+    75%{
+        box-shadow: 5px 5px 40px pink;
+    }
+    100%{
+        box-shadow: 5px 5px 40px yellow;
+    }
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    background-color:pink;
+    color: blue;
+    font-family: 'Anton', sans-serif;
+    width:100%;
+    line-height:3;
+    text-shadow: 2px 2px grey;
+}
